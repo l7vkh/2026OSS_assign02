@@ -1,14 +1,15 @@
 body {
     font: 100% Lucida Sans, Verdana;
-    margin: 5px;
-    line-height: 28px;
+    margin: 20px;
 }
 
- 
 #title {
     background-color: rgb(67, 167, 112);
     color: white;
-    padding: 12px;
+    padding: 5px;
+    padding-left: 15px;
+    margin: 5px;
+    line-height: 10px;
 }
 
 #title, #sidebar, #bottom, #menu{
@@ -17,7 +18,7 @@ body {
 
 }
 #wrapper {
-    position: relative;
+    display: flex;
     overflow: auto;
 }
 #menu {
@@ -37,8 +38,8 @@ body {
 }
 
 #bottom {
-    border-width: 1px;
-    border-color: rgb(73, 73, 73);
+    border: 0.4px solid;
+    border-color: rgb(133, 132, 132);
     font: 70% Lucida Sans, Verdana;
     background-color: rgb(217, 217, 217);
     padding: 5px;
