@@ -47,11 +47,16 @@ menu {
     list-style-type: none;
     cursor:pointer;
 }
+.menulist:hover {
+    background-color: white;
+}
 
 .menulist:first-child {
     background-color: #04AA6D;
-    font-weight: bold;
-    color:#ffffff;
+    a {
+        font-weight: bold;
+        color:white;
+    }
 }
 
 main {
@@ -77,6 +82,9 @@ footer {
     padding:0 10px;
     font-size: 70%;
     line-height: 14px;
+}
+.menulist a {
+    text-decoration: none;
 }
 
 a {
